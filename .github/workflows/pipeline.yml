@@ -35,3 +35,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python push_model_to_hub.py
+
